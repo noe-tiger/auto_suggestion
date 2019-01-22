@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+#ifndef DICTIONARY_PROJET_
+# define DICTIONARY_PROJET_
+
+typedef struct word{
+
+	struct word *a;
+	struct word *b;
+	struct word *c;
+	struct word *d;
+	struct word *e;
+	struct word *f;
+	struct word *g;
+	struct word *h;
+	struct word *i;
+	struct word *j;
+	struct word *k;
+	struct word *l;
+	struct word *m;
+	struct word *n;
+	struct word *o;
+	struct word *p;
+	struct word *q;
+	struct word *r;
+	struct word *s;
+	struct word *t;
+	struct word *u;
+	struct word *v;
+	struct word *w;
+	struct word *x;
+	struct word *y;
+	struct word *z;
+
+	char *curent;
+
+}word;
+
+
+
+char *getFileContent();
+word *genTree(char* str);
+void printTree(word *tree, int *limit, char base);
+word *getTree(word *tree, char *enter);
+
+
+
+
+#endif
